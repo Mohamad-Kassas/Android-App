@@ -1,31 +1,4 @@
-# project-group-9 Mealer App
+# Mighty Bites App
 
-Important Notes For Marking:  
-We were facing an SDK error each time someone pulls the project from the GitHub repo, we couldn't find a final solution to it yet. However, there's a local fix:  
-In the file gradle.properties, add the following line of code:  
-For Windows: sdk.dir=C:\\users\\Username\\AppData\\Local\\Android\\sdk  
-For Mac: sdk.dir = /users/Username/Library/Android/sdk  
-And replace Username as the local user name on the local machine and the error should be fixed  
-  
-We followed this guide to get the solution: https://www.geeksforgeeks.org/how-to-fix-sdk-location-not-found-in-android-studio/  
-
-Admin Credentials:  
-JayV@gmail.com
-JayVach12345#
-
-Chef Credentials:
-CaptianMK@gmail.com
-Captain1234#
-
-Customer Credentials:
-iphad083@uottawa.ca
-NotRealPWord56%
-
-Gmail for Firebase
-lucifer15102002@gmail.com
-1596374280  
-
-The above email will require 2 factor authentication, which will get sent to the following email address:  
-segengineers123@gmail.com  
-GROUP-nine123
+Meal ordering android application created using Java and Android Studio Customer and Chefs can sign up and login while Admins can only login. Admin can view and action complaints about Customers. Chefs can view their profile, create/edit meals and action orders. Customers can view and order meals while also being able to submit complaints and ratings for the chefs. We also chose to include a unique animation on app launch. Back-end users and data is stored in a Firebase Realtime Database. Application can read, write to the database Implemented JUnit Test Cases to Test Login and Register Aspects
 
